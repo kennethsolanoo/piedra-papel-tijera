@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.marcador {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.puntos {
+    background: #f0f0f0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.puntos p {
+    color: #555;
+    font-size: 1.1em;
+}
+
+.puntos span {
+    color: #667eea;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.juego {
+    margin: 30px 0;
+}
+
+.opciones {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boton {
+    padding: 15px 25px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: #764ba2;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.boton:active {
+    transform: scale(0.95);
+}
+
+.resultado {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#eleccion {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#mensaje {
+    font-size: 1.2em;
+    color: #667eea;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+.boton-reiniciar {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.boton-reiniciar:hover {
+    background: #ff5252;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.boton-reiniciar:active {
+    transform: scale(0.95);
+}
